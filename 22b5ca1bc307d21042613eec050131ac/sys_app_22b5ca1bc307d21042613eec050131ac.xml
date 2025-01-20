@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>CS</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo/>
+        <menu display_value="Agile Governance">955faf9fc30fd21042613eec0501310b</menu>
+        <name>Agile Governance</name>
+        <package_json/>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_238172_tgv</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_238172_tgv</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 15:51:43</sys_created_on>
+        <sys_id>22b5ca1bc307d21042613eec050131ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-20 21:26:11</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role display_value="x_238172_tgv.user" name="x_238172_tgv.user">4cc50e1bc307d21042613eec0501319a</user_role>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=22b5ca1bc307d21042613eec050131ac"/>
+</record_update>

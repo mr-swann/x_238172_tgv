@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Story">2897cadbc307d21042613eec050131d6</decision_input>
+        <decision_table display_value="Scrum task model">25d646d7c307d21042613eec05013188</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field>u_story.product</field>
+        <field_label>Story &gt; Product</field_label>
+        <field_parent_table/>
+        <label>Story</label>
+        <order>200</order>
+        <parent/>
+        <reference display_value="Product Model" name="cmdb_model">b29b389c9000021087de3cfccdb0d62c</reference>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 15:59:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0997c6dbc307d21042613eec050131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_0997c6dbc307d21042613eec050131e6</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 15:59:48</sys_updated_on>
+        <type display_value="Reference">52a227c1bf3320001875647fcf07396a</type>
+    </sn_decision_table_decision_condition>
+</record_update>

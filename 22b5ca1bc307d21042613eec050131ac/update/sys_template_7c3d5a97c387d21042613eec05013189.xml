@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Implement Solution</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Implement Solution</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 17:34:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c3d5a97c387d21042613eec05013189</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Implement Solution</sys_name>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sys_template_7c3d5a97c387d21042613eec05013189</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 01:26:10</sys_updated_on>
+        <table>rm_scrum_task</table>
+        <template>description=Implement Solution in the specified development environment.^priority=3^short_description=Implement Solution^state=1^type=2^EQ</template>
+        <user/>
+        <view/>
+    </sys_template>
+</record_update>

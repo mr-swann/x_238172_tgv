@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_238172_tgv_rule" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Technical Governance Rule - Default view" name="x_238172_tgv_rule" related_list="NULL" sys_domain="global" view="Default view">7432bfd3c34fd21042613eec050131e1</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_238172_tgv_step.x_238172_tgv_rule</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>pgd</sys_created_by>
+            <sys_created_on>2025-01-17 23:45:39</sys_created_on>
+            <sys_id>b032bfd3c34fd21042613eec050131e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pgd</sys_updated_by>
+            <sys_updated_on>2025-01-17 23:45:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Technical Governance Rule - Default view</calculated_name>
+            <filter/>
+            <name>x_238172_tgv_rule</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>pgd</sys_created_by>
+            <sys_created_on>2025-01-17 23:45:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7432bfd3c34fd21042613eec050131e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Technical Governance Rule - Default view</sys_name>
+            <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+            <sys_update_name>sys_ui_related_x_238172_tgv_rule_null</sys_update_name>
+            <sys_updated_by>pgd</sys_updated_by>
+            <sys_updated_on>2025-01-17 23:45:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

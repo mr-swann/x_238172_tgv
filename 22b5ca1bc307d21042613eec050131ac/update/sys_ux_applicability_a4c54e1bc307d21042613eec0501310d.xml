@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_238172_tgv.Technical Governance Audience</api_name>
+        <description/>
+        <name>Technical Governance Audience</name>
+        <role_names/>
+        <roles name="x_238172_tgv.user">4cc50e1bc307d21042613eec0501319a</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 15:51:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4c54e1bc307d21042613eec0501310d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Governance Audience</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sys_ux_applicability_a4c54e1bc307d21042613eec0501310d</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 15:51:51</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

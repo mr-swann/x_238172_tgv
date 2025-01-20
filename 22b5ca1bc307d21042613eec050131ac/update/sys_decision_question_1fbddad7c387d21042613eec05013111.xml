@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>e9fdd6d7c387d21042613eec05013133</answer>
+        <condition table="var__m_sys_decision_input_25d646d7c307d21042613eec05013188">u_story.state=2^u_story.type=Development^u_story.productISNOTEMPTY^EQ<item display_value="Work in progress" endquery="false" field="u_story.state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item display_value="Development" endquery="false" field="u_story.type" goto="false" newquery="false" operator="=" or="false" value="Development"/>
+            <item endquery="false" field="u_story.product" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Scrum task model">25d646d7c307d21042613eec05013188</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_25d646d7c307d21042613eec05013188</input_table>
+        <label>Scrum task model_200</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>200</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 17:36:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1fbddad7c387d21042613eec05013111</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Scrum task model_200</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sys_decision_question_1fbddad7c387d21042613eec05013111</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 17:37:36</sys_updated_on>
+    </sys_decision_question>
+</record_update>

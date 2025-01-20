@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c5407bdfc30fd21042613eec050131f6" label="Technical Governance Step" max_length="40" name="x_238172_tgv_step" type="collection">
+        <element attributes="readonly_clickthrough=true" label="Rule" mandatory="true" max_length="32" name="x_238172_tgv_rule" read_only="true" reference="x_238172_tgv_rule" type="reference"/>
+        <element default="story" dependent="table" dependent_on_field="table" label="Parent field" mandatory="true" max_length="80" name="parent_field" type="field_name" use_dependent_field="true"/>
+        <element default="rm_scrum_task" label="Table" max_length="80" name="table" type="table_name"/>
+        <element default="true" label="Is wait for" max_length="40" name="is_wait_for" type="boolean"/>
+        <element label="Template" max_length="32" name="template" reference="sys_template" reference_qual="javascript: 'active=true^table=' + current.table" type="reference" use_reference_qualifier="advanced"/>
+        <element default="100" label="Order" max_length="40" name="order" type="integer"/>
+        <element display="true" label="Short description" mandatory="true" max_length="100" name="short_description" type="string"/>
+        <index name="index">
+            <element name="template"/>
+        </index>
+        <index name="index2">
+            <element name="x_238172_tgv_rule"/>
+        </index>
+    </element>
+</database>
