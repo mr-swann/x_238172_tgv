@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 15:51:50</sys_created_on>
+        <sys_id>90c50e1bc307d21042613eec050131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_238172_tgv_request.x_238172_tgv.agent</sys_name>
+        <sys_package display_value="Technical Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_security_acl display_value="x_238172_tgv_request">d8c50e1bc307d21042613eec050131d5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_90c50e1bc307d21042613eec050131db</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 15:51:50</sys_updated_on>
+        <sys_user_role display_value="x_238172_tgv.agent" name="x_238172_tgv.agent">4cc50e1bc307d21042613eec0501319a</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</application>
+        <file_path/>
+        <instance_id>c0404cdbdb9abd10caf99027c59619c2</instance_id>
+        <instance_name>dev209314</instance_name>
+        <name>sys_security_acl_role_90c50e1bc307d21042613eec050131db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>pgd</sys_created_by><sys_created_on>2025-01-17 15:51:50</sys_created_on><sys_id>90c50e1bc307d21042613eec050131db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_238172_tgv_request.x_238172_tgv.agent</sys_name><sys_package display_value="Technical Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package><sys_policy/><sys_scope display_value="Technical Governance">22b5ca1bc307d21042613eec050131ac</sys_scope><sys_security_acl display_value="x_238172_tgv_request">d8c50e1bc307d21042613eec050131d5</sys_security_acl><sys_update_name>sys_security_acl_role_90c50e1bc307d21042613eec050131db</sys_update_name><sys_updated_by>pgd</sys_updated_by><sys_updated_on>2025-01-17 15:51:50</sys_updated_on><sys_user_role display_value="x_238172_tgv.agent" name="x_238172_tgv.agent">4cc50e1bc307d21042613eec0501319a</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1128908408</payload_hash>
+        <record_name>x_238172_tgv_request.x_238172_tgv.agent</record_name>
+        <reverted_from/>
+        <source>62b5ca1bc307d21042613eec050131b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 15:51:50</sys_created_on>
+        <sys_id>58c50e1bc307d21042613eec050131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19474f6acf00000001</sys_recorded_at>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 15:51:50</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>5cc50e1bc607d2107d65a2bcde136ade</update_guid>
+        <update_guid_history>5cc50e1bc607d2107d65a2bcde136ade:-1128908408</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_238172_tgv_request.x_238172_tgv.agent">68fe279fc30fd21042613eec05013158</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 23:31:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1c70032ed8354a4c852d61ccf86281f9</sys_id>
+        <sys_metadata>90c50e1bc307d21042613eec050131db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_238172_tgv_request.x_238172_tgv.agent</sys_name>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_parent display_value="">d8c50e1bc307d21042613eec050131d5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_scope_delete display_value="">b1081c1ff87b4330a32ac46757cf8a90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_90c50e1bc307d21042613eec050131db</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_90c50e1bc307d21042613eec050131db">58c50e1bc307d21042613eec050131df</sys_update_version>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 23:31:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

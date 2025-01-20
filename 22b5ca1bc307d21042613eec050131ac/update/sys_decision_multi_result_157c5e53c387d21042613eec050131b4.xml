@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Scrum task model">25d646d7c307d21042613eec05013188</decision_table>
+        <label>Template: UML Sketch, Action: Create</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 17:31:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>157c5e53c387d21042613eec050131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Template: UML Sketch, Action: Create</sys_name>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sys_decision_multi_result_157c5e53c387d21042613eec050131b4</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 17:31:02</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=157c5e53c387d21042613eec050131b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>157c5e53c387d21042613eec050131b4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 17:31:02</sys_created_on>
+        <sys_id>597c5e53c387d21042613eec050131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 17:31:02</sys_updated_on>
+        <value>create</value>
+        <variable display_value="Action">3c7c16dfc347d21042613eec0501319d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>157c5e53c387d21042613eec050131b4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 17:31:02</sys_created_on>
+        <sys_id>957c5e53c387d21042613eec050131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 17:31:02</sys_updated_on>
+        <value>2e189613c387d21042613eec0501316f</value>
+        <variable display_value="Template">f897cadbc307d21042613eec050131ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>157c5e53c387d21042613eec050131b4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 17:31:02</sys_created_on>
+        <sys_id>9d7c5e53c387d21042613eec050131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 17:31:02</sys_updated_on>
+        <value/>
+        <variable display_value="Order">497c9e57c387d21042613eec0501319d</variable>
+    </sys_variable_value>
+</record_update>

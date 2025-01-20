@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_238172_tgv_rule">x_238172_tgv_rule</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>TGVRULE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 23:33:09</sys_created_on>
+        <sys_id>315faf9fc30fd21042613eec05013198</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TGVRULE</sys_name>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sys_number_315faf9fc30fd21042613eec05013198</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 23:33:09</sys_updated_on>
+    </sys_number>
+</record_update>

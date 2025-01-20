@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Confirm Acceptance Criteria</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Confirm Acceptance Criteria</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 01:22:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed688c27c3cfd21042613eec05013167</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Confirm Acceptance Criteria</sys_name>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sys_template_ed688c27c3cfd21042613eec05013167</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 01:22:49</sys_updated_on>
+        <table>rm_scrum_task</table>
+        <template>description=Review Storyline, Actor &amp; Use Case. &#13;
+&#13;
+Ensure we are using AS A, I WANT, SO THAT format for the story description.&#13;
+&#13;
+Review the Acceptance Criteria and ensure it is using Gherkin language: GIVEN WHEN THEN^priority=2^short_description=Confirm Acceptance Criteria^state=1^type=1^EQ</template>
+        <user/>
+        <view/>
+    </sys_template>
+</record_update>

@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1415000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>maintain_story_governance</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Story Record","reference":"rm_story","reference_display":"Story","type":"reference","base_type":"reference","usedInstances":{"fa9dea8d-0791-4723-a919-ae01ca83d0b2":["story"]},"attributes":{}}]</label_cache>
+        <master_snapshot>5b6d7f17c38fd21042613eec05013130</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Maintain Story Governance</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>676d7f17c38fd21042613eec0501317f</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:33:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c1d3717c38fd21042613eec050131bf</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Maintain Story Governance</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sys_hub_flow_1c1d3717c38fd21042613eec050131bf</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:56:44</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1c1d3717c38fd21042613eec050131bf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1c1d3717c38fd21042613eec050131bf"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="rm_story">stateVALCHANGES<item endquery="false" field="state" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>676d7f17c38fd21042613eec0501317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:42</sys_updated_on>
+        <table>rm_story</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>1c1d3717c38fd21042613eec050131bf</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:56:44</sys_created_on>
+        <sys_id>da728c2fc38fd21042613eec050131e6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:56:44</sys_updated_on>
+        <trigger display_value="">676d7f17c38fd21042613eec0501317f</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1c1d3717c38fd21042613eec050131bf^sys_idNOT INda728c2fc38fd21042613eec050131e6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1c1d3717c38fd21042613eec050131bf"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1c1d3717c38fd21042613eec050131bf^sys_idNOT INd81d3717c38fd21042613eec050131c0"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1c1d3717c38fd21042613eec050131bf</id>
+        <name>Maintain Story Governance</name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:33:07</sys_created_on>
+        <sys_id>d81d3717c38fd21042613eec050131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:33:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d81d3717c38fd21042613eec050131c0"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1c1d3717c38fd21042613eec050131bf^sys_idNOT IN0e6d3f17c38fd21042613eec05013168,826d3f17c38fd21042613eec05013165,866d3f17c38fd21042613eec05013161"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Maintain Story Governance">1c1d3717c38fd21042613eec050131bf</model>
+        <model_id>1c1d3717c38fd21042613eec050131bf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1c1d3717c38fd21042613eec050131bf</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:36</sys_created_on>
+        <sys_id>0e6d3f17c38fd21042613eec05013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0e6d3f17c38fd21042613eec05013168"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">d6018d5c90c0021087de3cfccdb0d63a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Maintain Story Governance">1c1d3717c38fd21042613eec050131bf</model>
+        <model_id>1c1d3717c38fd21042613eec050131bf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1c1d3717c38fd21042613eec050131bf</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:36</sys_created_on>
+        <sys_id>826d3f17c38fd21042613eec05013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=826d3f17c38fd21042613eec05013165"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Maintain Story Governance">1c1d3717c38fd21042613eec050131bf</model>
+        <model_id>1c1d3717c38fd21042613eec050131bf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1c1d3717c38fd21042613eec050131bf</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:36</sys_created_on>
+        <sys_id>866d3f17c38fd21042613eec05013161</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=866d3f17c38fd21042613eec05013161"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1c1d3717c38fd21042613eec050131bf"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1c1d3717c38fd21042613eec050131bf"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=1c1d3717c38fd21042613eec050131bf^sys_idNOT INc26d3f17c38fd21042613eec0501317b"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Maintain Story Governance">1c1d3717c38fd21042613eec050131bf</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:36</sys_created_on>
+        <sys_id>c26d3f17c38fd21042613eec0501317b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:41:27</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=1c1d3717c38fd21042613eec050131bf"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=1c1d3717c38fd21042613eec050131bf^sys_idNOT IN0e6d3f17c38fd21042613eec0501317c"/>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Maintain Story Governance">1c1d3717c38fd21042613eec050131bf</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="Apply Governance Rules">e4fc7317c38fd21042613eec050131b2</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/41RW0/bMBT+K8jPaRQ3hE59m0BIkwZIMHhBKDq2T1pLjm0cu9BV/e87bkJVdXvYm8/tu/l1x7RiS4ZVJxc1X8j6W6fmvLqcX/EaUVZNxWsuGlYwCz3S5hBd2FK5AZNyvdtdB4SI6sKFi2ev8rPlpUwhoI37Pa0qPXgD25fpgjpyrY2iOVu+vhXMQyDsiIEtd2ejuPXYGhBo6PARO6SJREL4X9Vft0+T7DMXGZ/KcILsgspKeMHwM6JVSEwdmAEL1oMlf/lyGUOiBjlXD9ZsjxtrbeNosYfPQf8m8HpenOATV99+scu10xIffNTOjlcRhDlfcib19n7UndPEDpKJJ2mmAVuFPmvN7JOU7mntPo6R3Wp7sDUNjZNgjhXEGLRIEYf8A0n/+juVsfnzHz+BBnvibXvwXttV64Pb6AMXSe/LlaGi7Iz7II2DXtkSZPZbUpJQ3lL/5tB+gaCz+TuCoePM+Gz1e8If+ae5qrFWopk1uOCzywbrmQApZryruELO50JItj8E3b6nbG2MagqlHfOlhUEG7eN3krDByf/+7Q9lQpmlBgMAAA==</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:36</sys_created_on>
+        <sys_id>0e6d3f17c38fd21042613eec0501317c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:36</sys_updated_on>
+        <ui_id>fa9dea8d-0791-4723-a919-ae01ca83d0b2</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=1c1d3717c38fd21042613eec050131bf"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1c1d3717c38fd21042613eec050131bf"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1c1d3717c38fd21042613eec050131bf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1c1d3717c38fd21042613eec050131bf^sys_idNOT IN0e6d3f17c38fd21042613eec05013167,426d3f17c38fd21042613eec0501316b,826d3f17c38fd21042613eec05013164"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1c1d3717c38fd21042613eec050131bf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:36</sys_created_on>
+        <sys_id>0e6d3f17c38fd21042613eec05013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1c1d3717c38fd21042613eec050131bf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:36</sys_created_on>
+        <sys_id>426d3f17c38fd21042613eec0501316b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1c1d3717c38fd21042613eec050131bf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:36</sys_created_on>
+        <sys_id>826d3f17c38fd21042613eec05013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1c1d3717c38fd21042613eec050131bf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1c1d3717c38fd21042613eec050131bf"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1c1d3717c38fd21042613eec050131bf"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>maintain_story_governance</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Story Record","reference":"rm_story","reference_display":"Story","type":"reference","base_type":"reference","usedInstances":{"fa9dea8d-0791-4723-a919-ae01ca83d0b2":["story"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Maintain Story Governance</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Maintain Story Governance">1c1d3717c38fd21042613eec050131bf</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b6d7f17c38fd21042613eec05013130</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:56:44</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b6d7f17c38fd21042613eec05013130"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5b6d7f17c38fd21042613eec05013130"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5b6d7f17c38fd21042613eec05013130"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5b6d7f17c38fd21042613eec05013130^sys_idNOT IN176d7f17c38fd21042613eec05013131"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5b6d7f17c38fd21042613eec05013130</id>
+        <name>Maintain Story Governance</name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_id>176d7f17c38fd21042613eec05013131</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=176d7f17c38fd21042613eec05013131"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5b6d7f17c38fd21042613eec05013130^sys_idNOT IN5f6d7f17c38fd21042613eec0501315b,936d7f17c38fd21042613eec05013132,db6d7f17c38fd21042613eec0501313b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Maintain Story Governance">5b6d7f17c38fd21042613eec05013130</model>
+        <model_id>5b6d7f17c38fd21042613eec05013130</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5b6d7f17c38fd21042613eec05013130</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_id>5f6d7f17c38fd21042613eec0501315b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:56:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5f6d7f17c38fd21042613eec0501315b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Maintain Story Governance">5b6d7f17c38fd21042613eec05013130</model>
+        <model_id>5b6d7f17c38fd21042613eec05013130</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5b6d7f17c38fd21042613eec05013130</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_id>936d7f17c38fd21042613eec05013132</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:56:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=936d7f17c38fd21042613eec05013132"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">d6018d5c90c0021087de3cfccdb0d63a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Maintain Story Governance">5b6d7f17c38fd21042613eec05013130</model>
+        <model_id>5b6d7f17c38fd21042613eec05013130</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5b6d7f17c38fd21042613eec05013130</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_id>db6d7f17c38fd21042613eec0501313b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:41:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=db6d7f17c38fd21042613eec0501313b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5b6d7f17c38fd21042613eec05013130"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5b6d7f17c38fd21042613eec05013130"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=5b6d7f17c38fd21042613eec05013130^sys_idNOT IN1b6d7f17c38fd21042613eec05013173"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Maintain Story Governance">5b6d7f17c38fd21042613eec05013130</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_id>1b6d7f17c38fd21042613eec05013173</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:41:31</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5b6d7f17c38fd21042613eec05013130"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5b6d7f17c38fd21042613eec05013130^sys_idNOT IN536d7f17c38fd21042613eec05013174"/>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Maintain Story Governance">5b6d7f17c38fd21042613eec05013130</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="Apply Governance Rules">e4fc7317c38fd21042613eec050131b2</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/41RS2/bMAz+K4XOjhHFzTLkNiQIMGBbgaXtpSgMWqJjAbLk6pE2C/LfR8We53U77CZ+Ivk9+HRmSrI1w3ktVgVfieJjLRd8frv4wAtEMV/OecGrJcuYgRap0wfrTlQeQcdUn88bhxBQ3lh389DJ9Cx5LqJzaMLlQq1S+U7D6XGYIEQ0Skv6Z+un54x14Gh3QMfW53df/ytOQ4WaWveDundiw6lLpcMaabXAAfoyTH2f4NbJJIRnDN8CGomkoAbtMWMtGLKXNq6DiwSQcXln9GnsaJQJvcMW3rz6QaTFIpvwkoa2/KVqhO+h0rjtU5qYqLcQYE9UIkQ3JmeVQN+nI7GGqMNmivUNd11Q1vQjIW3/k1lYHVvzrQ+JjYsmF4oeS4ldCiBZGvzV+8a+jmntlLlmNXxqK0BPWhGcaHYKdbqhb6wLtNELp3ptGYMQnKpiSNLPLKr7v6/Ug/+6E2psSVrZQtcpcyg7Z4/qKofctflBU5HX2r4mUnUwOYhEm9MFId8Rvr3Cj+BUyucrraHhxPhg1EvEz0k1lwUWslrOlrjis9slFrMKRDXj9ZxL5HxRVYJdMuZPfqPB+9+JkonyJaY8+nyHJMv+KGnkGsQnEnXEIbTL80/ZZ67kjwMAAA==</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_id>536d7f17c38fd21042613eec05013174</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:41</sys_updated_on>
+        <ui_id>fa9dea8d-0791-4723-a919-ae01ca83d0b2</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5b6d7f17c38fd21042613eec05013130"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5b6d7f17c38fd21042613eec05013130"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5b6d7f17c38fd21042613eec05013130"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5b6d7f17c38fd21042613eec05013130^sys_idNOT IN176d7f17c38fd21042613eec05013160,536d7f17c38fd21042613eec05013139,d36d7f17c38fd21042613eec05013159"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5b6d7f17c38fd21042613eec05013130</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_id>176d7f17c38fd21042613eec05013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5b6d7f17c38fd21042613eec05013130</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_id>536d7f17c38fd21042613eec05013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5b6d7f17c38fd21042613eec05013130</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:41</sys_created_on>
+        <sys_id>d36d7f17c38fd21042613eec05013159</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:34:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5b6d7f17c38fd21042613eec05013130"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5b6d7f17c38fd21042613eec05013130"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5b6d7f17c38fd21042613eec05013130"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>1c1d3717c38fd21042613eec050131bf</sys_id>
+        <latest_snapshot>5b6d7f17c38fd21042613eec05013130</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch3-10-23-2024_11-01-2024_2230.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=1c1d3717c38fd21042613eec050131bf^sys_idNOT INa76d7f17c38fd21042613eec05013181"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"a76d7f17c38fd21042613eec05013181","name":"plan","plan_signature":null}}</plan>
+        <plan_id>1c1d3717c38fd21042613eec050131bf</plan_id>
+        <snapshot>0082006fc38fd21042613eec05013105</snapshot>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:34:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a76d7f17c38fd21042613eec05013181</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:56:44</sys_updated_on>
+        <trigger display_value="">676d7f17c38fd21042613eec0501317f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1c1d3717c38fd21042613eec050131bf"/>
+</record_update>

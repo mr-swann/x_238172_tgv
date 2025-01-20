@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_delete_children=true" audit="true" db_object_id="4625eb05930092103854b1dcebba101e" extends="rm_task" label="Scrum Task" max_length="40" name="rm_scrum_task" type="collection">
+        <element label="state" max_length="32" name="x_238172_tgv_state" type="string"/>
+        <element label="Dependency values" max_length="4000" name="x_238172_tgv_dependency_values" read_only="true" type="simple_name_values"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="dependencies" max_length="4000" name="x_238172_tgv_dependencies" read_only="true" reference="rm_scrum_task" type="glide_list"/>
+    </element>
+</database>

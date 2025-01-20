@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c3feaf5fc30fd21042613eec050131fd" label="Technical Governance Rule" max_length="40" name="x_238172_tgv_rule" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="100" label="Order" max_length="40" name="order" type="integer"/>
+        <element default="rm_story" label="Table" max_length="80" name="table" type="table_name"/>
+        <element attributes="readable=true" dependent="table" dependent_on_field="table" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
+    </element>
+</database>

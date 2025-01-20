@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Define Model</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Define Model</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 01:27:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>74898867c3cfd21042613eec05013147</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Define Model</sys_name>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sys_template_74898867c3cfd21042613eec05013147</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 01:27:35</sys_updated_on>
+        <table>rm_scrum_task</table>
+        <template>description=Ensure documentation folder is created.&#13;
+Start gathering evidence against the Domain Model Blueprint &amp; produce UML Sketches^priority=4^short_description=Define Model^state=1^type=3^EQ</template>
+        <user/>
+        <view/>
+    </sys_template>
+</record_update>

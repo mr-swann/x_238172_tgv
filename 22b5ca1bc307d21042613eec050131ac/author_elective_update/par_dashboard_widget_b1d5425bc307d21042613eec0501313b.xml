@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">7dd5425bc307d21042613eec05013131</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_238172_tgv_request","fixedQuery":"active=true","listTitle":"All Active Tasks","columns":"","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props>
+        <h>20</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 15:52:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1d5425bc307d21042613eec0501313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Technical Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>par_dashboard_widget_b1d5425bc307d21042613eec0501313b</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 15:52:13</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>15</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</application>
+        <file_path/>
+        <instance_id>c0404cdbdb9abd10caf99027c59619c2</instance_id>
+        <instance_name>dev209314</instance_name>
+        <name>par_dashboard_widget_b1d5425bc307d21042613eec0501313b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">7dd5425bc307d21042613eec05013131</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"table":"x_238172_tgv_request","fixedQuery":"active=true","listTitle":"All Active Tasks","columns":"","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props><h>20</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>pgd</sys_created_by><sys_created_on>2025-01-17 15:52:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b1d5425bc307d21042613eec0501313b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Technical Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package><sys_policy/><sys_scope display_value="Technical Governance">22b5ca1bc307d21042613eec050131ac</sys_scope><sys_update_name>par_dashboard_widget_b1d5425bc307d21042613eec0501313b</sys_update_name><sys_updated_by>pgd</sys_updated_by><sys_updated_on>2025-01-17 15:52:13</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>15</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>581010246</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>62b5ca1bc307d21042613eec050131b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 15:52:13</sys_created_on>
+        <sys_id>3dd5425bc307d21042613eec0501313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19474f705490000001</sys_recorded_at>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 15:52:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>31d5425b9507d210c685f4530d11cb3c</update_guid>
+        <update_guid_history>31d5425b9507d210c685f4530d11cb3c:581010246</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0ed5425bc307d21042613eec0501314b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-17 15:52:14</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>bb2c6f0a1ec34eb88c5b15167a577964</sys_id>
+        <sys_metadata>b1d5425bc307d21042613eec0501313b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_scope_delete display_value="">b1081c1ff87b4330a32ac46757cf8a90</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_b1d5425bc307d21042613eec0501313b</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_b1d5425bc307d21042613eec0501313b">3dd5425bc307d21042613eec0501313c</sys_update_version>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-17 15:52:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

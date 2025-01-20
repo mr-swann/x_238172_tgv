@@ -1,0 +1,2211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>execute_step</internal_name>
+        <label_cache>[{"name":"{{action.step}}","label":"action➛Step","type":"action","ref":"","reference_display":"Technical Governance Step","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.parent_field}}","label":"action➛Parent field","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.parent_id}}","label":"action➛Parent Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d4a024dc-1d70-4451-beab-c95525eae882].task}}","label":"step➛Script step➛task","type":"step","ref":"rm_scrum_task","reference_display":"Scrum Task","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"0c92e85a-e112-4c0d-84a1-cd2ca64720fe"}}]</label_cache>
+        <master_snapshot>f829779fc34fd21042613eec05013153</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Execute Step</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:02:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a926739bc34fd21042613eec050131e5</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Execute Step</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a926739bc34fd21042613eec050131e5</sys_update_name>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:40</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a926739bc34fd21042613eec050131e5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a926739bc34fd21042613eec050131e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a926739bc34fd21042613eec050131e5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:05</sys_created_on>
+        <sys_id>0cf8339fc34fd21042613eec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:05</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">c0f8339fc34fd21042613eec0501317e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a926739bc34fd21042613eec050131e5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:05</sys_created_on>
+        <sys_id>48f8339fc34fd21042613eec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:05</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">c4f8339fc34fd21042613eec05013183</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a926739bc34fd21042613eec050131e5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>scrum_task</field>
+        <id>a926739bc34fd21042613eec050131e5</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:35</sys_created_on>
+        <sys_id>d3cbb393c38fd21042613eec050131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</table>
+        <value>{{step[d4a024dc-1d70-4451-beab-c95525eae882].task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_id</field>
+        <id>a926739bc34fd21042613eec050131e5</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:53</sys_created_on>
+        <sys_id>f319379fc34fd21042613eec050131b4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_table</field>
+        <id>a926739bc34fd21042613eec050131e5</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:53</sys_created_on>
+        <sys_id>3319379fc34fd21042613eec050131b4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>a926739bc34fd21042613eec050131e5</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:05</sys_created_on>
+        <sys_id>c4f8339fc34fd21042613eec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>a926739bc34fd21042613eec050131e5</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:05</sys_created_on>
+        <sys_id>04f8339fc34fd21042613eec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a926739bc34fd21042613eec050131e5^sys_idNOT IN7fe8339fc34fd21042613eec05013138"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Execute Step">a926739bc34fd21042613eec050131e5</action>
+        <cid>d4a024dc-1d70-4451-beab-c95525eae882</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>7fe8339fc34fd21042613eec05013138</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7fe8339fc34fd21042613eec05013138"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7fe8339fc34fd21042613eec05013138</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>40f8339fc34fd21042613eec0501317a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:09</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+var grStep = inputs.grStep;&#13;
+var idParent = inputs.idParent;&#13;
+var strEncodedQuery = grStep.template.template + '';&#13;
+&#13;
+var strTable = grStep.getValue('table');&#13;
+var strFieldParent = grStep.getValue('parent_field');&#13;
+&#13;
+var grTask = new GlideRecord(strTable);&#13;
+grTask.initialize();&#13;
+grTask.setValue(strFieldParent, idParent);&#13;
+grTask.applyEncodedQuery(strEncodedQuery);&#13;
+var idTarget = grTask.insert();&#13;
+&#13;
+&#13;
+outputs.task = grTask;&#13;
+    &#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7fe8339fc34fd21042613eec05013138</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>48f8339fc34fd21042613eec05013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7fe8339fc34fd21042613eec05013138"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7fe8339fc34fd21042613eec05013138</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>00f8339fc34fd21042613eec05013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>grStep</field>
+        <id>7fe8339fc34fd21042613eec05013138</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>0cf8339fc34fd21042613eec0501317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7fe8339fc34fd21042613eec05013138</table>
+        <value>{{action.step}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>idParent</field>
+        <id>7fe8339fc34fd21042613eec05013138</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>ccf8339fc34fd21042613eec0501317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7fe8339fc34fd21042613eec05013138</table>
+        <value>{{action.parent_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>7fe8339fc34fd21042613eec05013138</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>c4f8339fc34fd21042613eec05013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7fe8339fc34fd21042613eec05013138^id=7fe8339fc34fd21042613eec05013138"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=7fe8339fc34fd21042613eec05013138"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7fe8339fc34fd21042613eec05013138"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7fe8339fc34fd21042613eec05013138^sys_idNOT IN00f8339fc34fd21042613eec05013142,0cf8339fc34fd21042613eec0501313e"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>idParent</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7fe8339fc34fd21042613eec05013138</model>
+        <model_id>7fe8339fc34fd21042613eec05013138</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7fe8339fc34fd21042613eec05013138</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>00f8339fc34fd21042613eec05013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>grStep</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">7fe8339fc34fd21042613eec05013138</model>
+        <model_id>7fe8339fc34fd21042613eec05013138</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7fe8339fc34fd21042613eec05013138</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_238172_tgv_step">x_238172_tgv_step</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>0cf8339fc34fd21042613eec0501313e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7fe8339fc34fd21042613eec05013138^sys_idNOT IN34bbff53c38fd21042613eec050131d1"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=0c92e85a-e112-4c0d-84a1-cd2ca64720fe</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">7fe8339fc34fd21042613eec05013138</model>
+        <model_id>7fe8339fc34fd21042613eec05013138</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7fe8339fc34fd21042613eec05013138</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="rm_scrum_task">rm_scrum_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:08</sys_created_on>
+        <sys_id>34bbff53c38fd21042613eec050131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7fe8339fc34fd21042613eec05013138"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7fe8339fc34fd21042613eec05013138^sys_idNOT INf4bbff53c38fd21042613eec050131d4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task</element>
+        <help/>
+        <hint/>
+        <label>task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7fe8339fc34fd21042613eec05013138</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:08</sys_created_on>
+        <sys_id>f4bbff53c38fd21042613eec050131d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=a926739bc34fd21042613eec050131e5^sys_idNOT INb3e8ff5fc34fd21042613eec050131e6,fbe8ff5fc34fd21042613eec050131ec"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=fb75842c-07da-49d8-b566-e08faf796017</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_238172_tgv_step</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>step</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Step</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Execute Step">a926739bc34fd21042613eec050131e5</model>
+        <model_id>a926739bc34fd21042613eec050131e5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a926739bc34fd21042613eec050131e5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_238172_tgv_step">x_238172_tgv_step</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:03</sys_created_on>
+        <sys_id>b3e8ff5fc34fd21042613eec050131e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b3e8ff5fc34fd21042613eec050131e6"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ba20a5d3-4797-47b2-810c-4628003f44b1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parent_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Parent Id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Execute Step">a926739bc34fd21042613eec050131e5</model>
+        <model_id>a926739bc34fd21042613eec050131e5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a926739bc34fd21042613eec050131e5</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>fbe8ff5fc34fd21042613eec050131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fbe8ff5fc34fd21042613eec050131ec"/>
+    <sys_hub_action_output action="delete_multiple" query="model=a926739bc34fd21042613eec050131e5^sys_idNOT INc0f8339fc34fd21042613eec0501317e,c4f8339fc34fd21042613eec05013183,cfcbb393c38fd21042613eec05013183"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d55f88c0-2cbd-4ae6-9314-07e34d96ce50</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Execute Step">a926739bc34fd21042613eec050131e5</model>
+        <model_id>a926739bc34fd21042613eec050131e5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:05</sys_created_on>
+        <sys_id>c0f8339fc34fd21042613eec0501317e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c0f8339fc34fd21042613eec0501317e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c0f8339fc34fd21042613eec0501317e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=92293494-475e-4c48-99ee-29d7f1ad97ef,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Execute Step">a926739bc34fd21042613eec050131e5</model>
+        <model_id>a926739bc34fd21042613eec050131e5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:05</sys_created_on>
+        <sys_id>c4f8339fc34fd21042613eec05013183</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c4f8339fc34fd21042613eec05013183"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c4f8339fc34fd21042613eec05013183"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=fcd3d260-9349-4d09-a33e-eed8c7f6bb68</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>rm_scrum_task</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>scrum_task</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Scrum task</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Execute Step">a926739bc34fd21042613eec050131e5</model>
+        <model_id>a926739bc34fd21042613eec050131e5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="rm_scrum_task">rm_scrum_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:34</sys_created_on>
+        <sys_id>cfcbb393c38fd21042613eec05013183</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cfcbb393c38fd21042613eec05013183"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cfcbb393c38fd21042613eec05013183"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a926739bc34fd21042613eec050131e5"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a926739bc34fd21042613eec050131e5^sys_idNOT IN40f8339fc34fd21042613eec050131b5"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Execute Step">a926739bc34fd21042613eec050131e5</action_type_id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:05</sys_created_on>
+        <sys_id>40f8339fc34fd21042613eec050131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:05</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=40f8339fc34fd21042613eec050131b5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a926739bc34fd21042613eec050131e5^sys_idNOT INbbe8339fc34fd21042613eec05013121,fbe8ff5fc34fd21042613eec050131eb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>parent_id</element>
+        <help/>
+        <hint/>
+        <label>Parent Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a926739bc34fd21042613eec050131e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>bbe8339fc34fd21042613eec05013121</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>step</element>
+        <help/>
+        <hint/>
+        <label>Step</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a926739bc34fd21042613eec050131e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:04</sys_created_on>
+        <sys_id>fbe8ff5fc34fd21042613eec050131eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a926739bc34fd21042613eec050131e5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5^sys_idNOT IN47cbb393c38fd21042613eec05013189,48f8339fc34fd21042613eec050131ae,c4f8339fc34fd21042613eec05013182"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>scrum_task</element>
+        <help/>
+        <hint/>
+        <label>Scrum task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:35</sys_created_on>
+        <sys_id>47cbb393c38fd21042613eec05013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:05</sys_created_on>
+        <sys_id>48f8339fc34fd21042613eec050131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:05</sys_created_on>
+        <sys_id>c4f8339fc34fd21042613eec05013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a926739bc34fd21042613eec050131e5"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=a926739bc34fd21042613eec050131e5^sys_idNOT IN8929779fc34fd21042613eec050131f7"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Execute Step">a926739bc34fd21042613eec050131e5</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8929779fc34fd21042613eec050131f7","name":"plan","plan_signature":null}}</plan>
+        <snapshot>68dbf393c38fd21042613eec050131e1</snapshot>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8929779fc34fd21042613eec050131f7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:40</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>execute_step</internal_name>
+        <label_cache>[{"name":"{{action.step}}","label":"action➛Step","type":"action","ref":"","reference_display":"Technical Governance Step","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.parent_field}}","label":"action➛Parent field","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.parent_id}}","label":"action➛Parent Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d4a024dc-1d70-4451-beab-c95525eae882].task}}","label":"step➛Script step➛task","type":"step","ref":"rm_scrum_task","reference_display":"Scrum Task","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"0c92e85a-e112-4c0d-84a1-cd2ca64720fe"}}]</label_cache>
+        <master>true</master>
+        <name>Execute Step</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Execute Step">a926739bc34fd21042613eec050131e5</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f829779fc34fd21042613eec05013153</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:39</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f829779fc34fd21042613eec05013153"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f829779fc34fd21042613eec05013153"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>f829779fc34fd21042613eec05013153</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>0d29779fc34fd21042613eec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">3029779fc34fd21042613eec050131a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>f829779fc34fd21042613eec05013153</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>4929779fc34fd21042613eec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">7829779fc34fd21042613eec050131a8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f829779fc34fd21042613eec05013153"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>scrum_task</field>
+        <id>f829779fc34fd21042613eec05013153</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:40</sys_created_on>
+        <sys_id>acdbf393c38fd21042613eec050131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</table>
+        <value>{{step[d4a024dc-1d70-4451-beab-c95525eae882].task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_id</field>
+        <id>f829779fc34fd21042613eec05013153</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>4129779fc34fd21042613eec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</table>
+        <value>{{step[d4a024dc-1d70-4451-beab-c95525eae882].target_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_table</field>
+        <id>f829779fc34fd21042613eec05013153</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>8d29779fc34fd21042613eec050131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</table>
+        <value>{{step[d4a024dc-1d70-4451-beab-c95525eae882].target_table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>f829779fc34fd21042613eec05013153</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>c529779fc34fd21042613eec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>f829779fc34fd21042613eec05013153</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>0529779fc34fd21042613eec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=f829779fc34fd21042613eec05013153^sys_idNOT IN7829779fc34fd21042613eec05013171"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Execute Step">f829779fc34fd21042613eec05013153</action>
+        <cid>d4a024dc-1d70-4451-beab-c95525eae882</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>7829779fc34fd21042613eec05013171</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:39</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7829779fc34fd21042613eec05013171"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7829779fc34fd21042613eec05013171</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>b029779fc34fd21042613eec0501318b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:39</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+var grStep = inputs.grStep;&#13;
+var idParent = inputs.idParent;&#13;
+var strEncodedQuery = grStep.template.template + '';&#13;
+&#13;
+var strTable = grStep.getValue('table');&#13;
+var strFieldParent = grStep.getValue('parent_field');&#13;
+&#13;
+var grTask = new GlideRecord(strTable);&#13;
+grTask.initialize();&#13;
+grTask.setValue(strFieldParent, idParent);&#13;
+grTask.applyEncodedQuery(strEncodedQuery);&#13;
+var idTarget = grTask.insert();&#13;
+&#13;
+&#13;
+outputs.task = grTask;&#13;
+    &#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7829779fc34fd21042613eec05013171</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>fc29779fc34fd21042613eec0501318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7829779fc34fd21042613eec05013171"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7829779fc34fd21042613eec05013171</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>b829779fc34fd21042613eec0501318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>grStep</field>
+        <id>7829779fc34fd21042613eec05013171</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>f829779fc34fd21042613eec0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7829779fc34fd21042613eec05013171</table>
+        <value>{{action.step}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>idParent</field>
+        <id>7829779fc34fd21042613eec05013171</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>bc29779fc34fd21042613eec0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7829779fc34fd21042613eec05013171</table>
+        <value>{{action.parent_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>7829779fc34fd21042613eec05013171</id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>7c29779fc34fd21042613eec0501318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7829779fc34fd21042613eec05013171^id=7829779fc34fd21042613eec05013171"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=7829779fc34fd21042613eec05013171"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7829779fc34fd21042613eec05013171"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7829779fc34fd21042613eec05013171^sys_idNOT IN3829779fc34fd21042613eec05013175,7829779fc34fd21042613eec05013179"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>grStep</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>grStep</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">7829779fc34fd21042613eec05013171</model>
+        <model_id>7829779fc34fd21042613eec05013171</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7829779fc34fd21042613eec05013171</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_238172_tgv_step">x_238172_tgv_step</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>3829779fc34fd21042613eec05013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>idParent</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>idParent</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7829779fc34fd21042613eec05013171</model>
+        <model_id>7829779fc34fd21042613eec05013171</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7829779fc34fd21042613eec05013171</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>7829779fc34fd21042613eec05013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7829779fc34fd21042613eec05013171^sys_idNOT IN1cdbf393c38fd21042613eec050131a6"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=0c92e85a-e112-4c0d-84a1-cd2ca64720fe</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">7829779fc34fd21042613eec05013171</model>
+        <model_id>7829779fc34fd21042613eec05013171</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7829779fc34fd21042613eec05013171</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="rm_scrum_task">rm_scrum_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:39</sys_created_on>
+        <sys_id>1cdbf393c38fd21042613eec050131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7829779fc34fd21042613eec05013171"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7829779fc34fd21042613eec05013171^sys_idNOT IN10dbf393c38fd21042613eec050131aa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task</element>
+        <help/>
+        <hint/>
+        <label>task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7829779fc34fd21042613eec05013171</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:39</sys_created_on>
+        <sys_id>10dbf393c38fd21042613eec050131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=f829779fc34fd21042613eec05013153^sys_idNOT IN3029779fc34fd21042613eec05013157,bc29779fc34fd21042613eec0501315c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=fb75842c-07da-49d8-b566-e08faf796017</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_238172_tgv_step</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>step</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Step</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Execute Step">f829779fc34fd21042613eec05013153</model>
+        <model_id>f829779fc34fd21042613eec05013153</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f829779fc34fd21042613eec05013153</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_238172_tgv_step">x_238172_tgv_step</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>3029779fc34fd21042613eec05013157</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3029779fc34fd21042613eec05013157"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ba20a5d3-4797-47b2-810c-4628003f44b1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parent_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Parent Id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Execute Step">f829779fc34fd21042613eec05013153</model>
+        <model_id>f829779fc34fd21042613eec05013153</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f829779fc34fd21042613eec05013153</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>bc29779fc34fd21042613eec0501315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bc29779fc34fd21042613eec0501315c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=f829779fc34fd21042613eec05013153^sys_idNOT IN3029779fc34fd21042613eec050131a0,50dbf393c38fd21042613eec050131c1,7829779fc34fd21042613eec050131a8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d55f88c0-2cbd-4ae6-9314-07e34d96ce50</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Execute Step">f829779fc34fd21042613eec05013153</model>
+        <model_id>f829779fc34fd21042613eec05013153</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>3029779fc34fd21042613eec050131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3029779fc34fd21042613eec050131a0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3029779fc34fd21042613eec050131a0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=fcd3d260-9349-4d09-a33e-eed8c7f6bb68</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>rm_scrum_task</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>scrum_task</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Scrum task</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Execute Step">f829779fc34fd21042613eec05013153</model>
+        <model_id>f829779fc34fd21042613eec05013153</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="rm_scrum_task">rm_scrum_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:39</sys_created_on>
+        <sys_id>50dbf393c38fd21042613eec050131c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=50dbf393c38fd21042613eec050131c1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=50dbf393c38fd21042613eec050131c1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=92293494-475e-4c48-99ee-29d7f1ad97ef,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Execute Step">f829779fc34fd21042613eec05013153</model>
+        <model_id>f829779fc34fd21042613eec05013153</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>7829779fc34fd21042613eec050131a8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7829779fc34fd21042613eec050131a8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7829779fc34fd21042613eec050131a8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f829779fc34fd21042613eec05013153"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=f829779fc34fd21042613eec05013153^sys_idNOT INc529779fc34fd21042613eec050131b5"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Execute Step">f829779fc34fd21042613eec05013153</action_type_id>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>c529779fc34fd21042613eec050131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c529779fc34fd21042613eec050131b5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f829779fc34fd21042613eec05013153^sys_idNOT IN3829779fc34fd21042613eec0501316c,bc29779fc34fd21042613eec0501315b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>parent_id</element>
+        <help/>
+        <hint/>
+        <label>Parent Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f829779fc34fd21042613eec05013153</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>3829779fc34fd21042613eec0501316c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>step</element>
+        <help/>
+        <hint/>
+        <label>Step</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f829779fc34fd21042613eec05013153</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>bc29779fc34fd21042613eec0501315b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f829779fc34fd21042613eec05013153"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153^sys_idNOT IN4d29779fc34fd21042613eec050131ad,50dbf393c38fd21042613eec050131c6,7429779fc34fd21042613eec050131a3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>4d29779fc34fd21042613eec050131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>scrum_task</element>
+        <help/>
+        <hint/>
+        <label>Scrum task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:27:40</sys_created_on>
+        <sys_id>50dbf393c38fd21042613eec050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:27:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pgd</sys_created_by>
+        <sys_created_on>2025-01-18 00:15:57</sys_created_on>
+        <sys_id>7429779fc34fd21042613eec050131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pgd</sys_updated_by>
+        <sys_updated_on>2025-01-18 00:15:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_f829779fc34fd21042613eec05013153"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>a926739bc34fd21042613eec050131e5</sys_id>
+        <latest_snapshot>f829779fc34fd21042613eec05013153</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch3-10-23-2024_11-01-2024_2230.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

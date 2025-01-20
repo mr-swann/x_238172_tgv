@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_238172_tgv_dependency_values" label="Dependency values" language="en" table="rm_scrum_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_238172_tgv_dependency_values</element>
+            <help/>
+            <hint/>
+            <label>Dependency values</label>
+            <language>en</language>
+            <name>rm_scrum_task</name>
+            <plural>Dependency values</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>pgd</sys_created_by>
+            <sys_created_on>2025-01-18 14:55:56</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dependency values</sys_name>
+            <sys_package display_value="Agile Governance" source="x_238172_tgv">22b5ca1bc307d21042613eec050131ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Agile Governance">22b5ca1bc307d21042613eec050131ac</sys_scope>
+            <sys_update_name>sys_documentation_rm_scrum_task_x_238172_tgv_dependency_values_en</sys_update_name>
+            <sys_updated_by>pgd</sys_updated_by>
+            <sys_updated_on>2025-01-18 14:55:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

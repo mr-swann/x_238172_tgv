@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a8c2c363c38f161042613eec05013175" label="Step wait" max_length="40" name="x_238172_tgv_step_wait" type="collection">
+        <element label="Wait for step" mandatory="true" max_length="32" name="wait_for_step" reference="x_238172_tgv_step" type="reference"/>
+        <element attributes="readable=true" dependent="table" dependent_on_field="table" label="Wait for condition" mandatory="true" max_length="4000" name="wait_for_condition" type="conditions" use_dependent_field="true"/>
+        <element label="Step" mandatory="true" max_length="32" name="step" reference="x_238172_tgv_step" type="reference"/>
+        <element default="rm_scrum_task" label="Table" mandatory="true" max_length="80" name="table" type="table_name"/>
+        <index name="index">
+            <element name="step"/>
+        </index>
+        <index name="index2">
+            <element name="wait_for_step"/>
+        </index>
+    </element>
+</database>
